@@ -21,10 +21,13 @@ namespace Gymbokning
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/moment.min.js",
+                      "~/Scripts/bootstrap-sortable.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
+                      "~/Content/bootstrap-sortable.css",
                       "~/Content/site.css"));
         }
     }
